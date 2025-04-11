@@ -1,0 +1,15 @@
+abstract class vehicle{
+	astract void start(){
+	}
+}
+
+class car extends vehicle{
+	void start(){
+		System.out.println("Start by key");
+	}
+}
+class scooter extends vehicle{
+	void start(){
+		System.out.println("Start by kick");
+	}
+}
